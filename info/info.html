@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="info.css">
+    <script src="https://kit.fontawesome.com/b13d665976.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+
+        
+        <button class="menu" id="menu-btn">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+        </button>
+
+        <nav class="sidebar">
+            <div class="heading">
+                <h2>WebHome</h2>
+                
+            </div>
+            <ul>
+                
+                <li><a href="#" onclick="about()"><i class="fa-regular fa-address-card"></i>About</a></li>
+                <li><a href="#" onclick="github()" ><i class="fa-brands fa-github" style="color: #ffffff;"></i></i>Github</a></li>
+                <li><a href="#" onclick="home()"><i class="fa-solid fa-house" style="color: #ffffff;"></i>Home</a></li>
+               
+            </ul>
+        </nav>
+
+
+
+
+        <div id="header">
+            <header>
+                <h1>About This Site</h1>
+            </header>
+        </div>
+
+
+        <div id="main">
+            <div id="main-content">
+                <div id="about">
+                    <h2>About This Site</h2>
+                    <div class="para">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div id="version">
+                    <div id="currentVersion">
+                        <h2>current version</h2>
+                        <p id="changecurrent">version goes here</p>
+                    </div>
+
+                    <div id="startingVersion">
+                        <h2>starting version</h2>
+                        <p id="starttingversion">starting version goes here</p>
+                    </div>
+
+                    <div id="allDetails">
+                        <h2>All Details</h2>
+                        <div id="all">
+                            <ul>
+                                <li>Owner is <span id="owner"></span></li>
+                                <li>current version is <span id="currversion"></span></li>
+                                <li>startingversion is <span id="startversion"></span></li>
+                                <li>developer is <span id="dev"></span></li>
+                                <li id="message"></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="info.js"></script>
+</body>
+</html>
